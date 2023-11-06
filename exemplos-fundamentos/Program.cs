@@ -112,12 +112,30 @@
 //   Console.WriteLine("Reprovado");
 // }
 
-bool choveu = false;
-bool estaTarde = false;
+// bool choveu = false;
+// bool estaTarde = false;
 
-if(!choveu && !estaTarde) {
-  Console.WriteLine("Vou pedalar");
-} else {
-   Console.WriteLine("Vou pedalar outro dia!");
-}
+// if(!choveu && !estaTarde) {
+//   Console.WriteLine("Vou pedalar");
+// } else {
+//    Console.WriteLine("Vou pedalar outro dia!");
+// }
 
+Calculadora calc = new Calculadora();
+
+// calc.Somar(20,5);
+// calc.Subtrair(300,100);
+// calc.Multplicar(10,100);
+// calc.Dividir(20,4);
+// calc.Potencia(3,3);
+// calc.Seno(30);
+// calc.Coseno(30);
+// calc.Tangente(30);
+
+// int numero = 10;
+
+// Console.WriteLine(numero);
+// Console.WriteLine("Incrementando o 10");
+// numero--;
+// Console.WriteLine(numero);
+calc.RaizQuadrada(9);
