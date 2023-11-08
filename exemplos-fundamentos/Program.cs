@@ -121,7 +121,7 @@
 //    Console.WriteLine("Vou pedalar outro dia!");
 // }
 
-Calculadora calc = new Calculadora();
+// Calculadora calc = new Calculadora();
 
 // calc.Somar(20,5);
 // calc.Subtrair(300,100);
@@ -138,4 +138,76 @@ Calculadora calc = new Calculadora();
 // Console.WriteLine("Incrementando o 10");
 // numero--;
 // Console.WriteLine(numero);
-calc.RaizQuadrada(9);
+// calc.RaizQuadrada(9);
+
+// int numero = 5;
+
+// for(int i = 1; i <= 1000; i++) {
+//   Console.WriteLine($"{numero} x {i} = {numero * i}");
+// }
+
+// int numero = 5;
+// int i = 0;
+// while(i <= 10) 
+// {
+//    Console.WriteLine($"{numero} x {i} = {numero * i}");
+//    i++;
+
+//    if(i == 6) 
+//    {
+//      break;
+//    }
+// }
+
+// int soma = 0, numero = 0;
+
+// do {
+//     Console.WriteLine("Digite um numero: (0) para parar");
+//     numero = Convert.ToInt32(Console.ReadLine());
+
+//     soma += numero;
+
+// } while(numero != 0);
+
+// Console.WriteLine($"Total da soma dos números são: {soma}");
+
+string opcao;
+bool exibirMenu = true;
+
+while(exibirMenu)
+{
+  Console.Clear();
+  Console.WriteLine("Digite a sua opção:");
+  Console.WriteLine("1 - Cadastrar cliente");
+  Console.WriteLine("2 - Buscar Clientes");
+  Console.WriteLine("3 - Apagar Clientes");
+  Console.WriteLine("4 - Encerrar:");
+
+  opcao = Console.ReadLine();
+
+  switch(opcao)
+  {
+     case "1":
+      Console.WriteLine("Cadastro de Cliente");
+      break;
+
+      case "2":
+        Console.WriteLine("Busca de cliente");
+        break;
+
+      case "3":
+        Console.WriteLine("Apagar Cliente");
+        break;
+
+      case "4":
+        Console.WriteLine("Encerrar");
+        exibirMenu = false;
+        break;    
+
+      default:
+        Console.WriteLine("Opção invalida");
+        break;  
+  }
+}
+
+Console.WriteLine("O programa se encerrou!");

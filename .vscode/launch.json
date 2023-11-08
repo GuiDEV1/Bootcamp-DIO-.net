@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/exemplos-fundamentos/bin/Debug/net6.0/exemplos-fundamentos.dll",
             "args": [],
             "cwd": "${workspaceFolder}/exemplos-fundamentos",
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
