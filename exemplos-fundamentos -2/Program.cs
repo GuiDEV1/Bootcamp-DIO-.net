@@ -1,28 +1,5 @@
-﻿
+﻿ using exemplos_fundamentos.Models;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//C:\curso-.net\ExemploFundamentos.Common\Models
 // string apresentacao = "Olá, seja bem vindo!!";
 
 // int quantidade = 1;
@@ -194,44 +171,43 @@
 
 // Console.WriteLine($"Total da soma dos números são: {soma}");
 
-// string opcao;
-// bool exibirMenu = true;
+string opcao;
+bool exibirMenu = true;
 
-// while(exibirMenu)
-// {
-//   Console.Clear();
-//   Console.WriteLine("Digite a sua opção:");
-//   Console.WriteLine("1 - Cadastrar cliente");
-//   Console.WriteLine("2 - Buscar Clientes");
-//   Console.WriteLine("3 - Apagar Clientes");
-//   Console.WriteLine("4 - Encerrar:");
+while(exibirMenu)
+{
+  Console.Clear();
+  Console.WriteLine("Digite a sua opção:");
+  Console.WriteLine("1 - Cadastrar cliente");
+  Console.WriteLine("2 - Buscar Clientes");
+  Console.WriteLine("3 - Apagar Clientes");
+  Console.WriteLine("4 - Encerrar:");
 
-//   opcao = Console.ReadLine();
+  opcao = Console.ReadLine();
 
-//   switch(opcao)
-//   {
-//      case "1":
-//       Console.WriteLine("Cadastro de Cliente");
-//       break;
+  switch(opcao)
+  {
+     case "1":
+      Console.WriteLine("Cadastro de Cliente");
+      break;
 
-//       case "2":
-//         Console.WriteLine("Busca de cliente");
-//         break;
+      case "2":
+        Console.WriteLine("Busca de cliente");
+        break;
 
-//       case "3":
-//         Console.WriteLine("Apagar Cliente");
-//         break;
+      case "3":
+        Console.WriteLine("Apagar Cliente");
+        break;
 
-//       case "4":
-//         Console.WriteLine("Encerrar");
-//         exibirMenu = false;
-//         break;    
+      case "4":
+        Console.WriteLine("Encerrar");
+        exibirMenu = false;
+        break;    
 
-//       default:
-//         Console.WriteLine("Opção invalida");
-//         break;  
-//   }
-// }
+      default:
+        Console.WriteLine("Opção invalida");
+        break;  
+  }
+}
 
-// Console.WriteLine("O programa se encerrou!");
-
+Console.WriteLine("O programa se encerrou!");
